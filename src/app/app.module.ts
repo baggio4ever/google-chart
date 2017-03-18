@@ -3,11 +3,14 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { GoogleChart } from 'angular2-google-chart/directives/angular2-google-chart.directive';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GoogleChart
   ],
   imports: [
     BrowserModule,
